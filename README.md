@@ -1,1 +1,0 @@
-# python collaborative project with Sanawar,Rizwan,Sohel,Mubashshir
