@@ -1,34 +1,34 @@
 
-# count = 0
-# while count < 6:
-#     print("Count is 1st:", count)
-#     count += 1
+count = 0
+while count < 6:
+    print("Count is 1st:", count)
+    count += 1
 
 
 
-# count = 0
-# while True:
-#     print("Count is:", count)
-#     count += 1
-#     if count >= 5:
-#         break
+count = 0
+while True:
+    print("Count is:", count)
+    count += 1
+    if count >= 5:
+        break
 
 
 
-# count = 0
-# while count < 10:
-#     count += 1
-#     if count % 2 == 0:
-#         continue
-#     print("Odd count is:", count)
+count = 0
+while count < 10:
+    count += 1
+    if count % 2 == 0:
+        continue
+    print("Odd count is:", count)
 
 
-# count = 0
-# while count < 5:
-#     print("Count is:", count)
-#     count += 1
-# else:
-#     print("Loop ended with count:", count)
+count = 0
+while count < 5:
+    print("Count is:", count)
+    count += 1
+else:
+    print("Loop ended with count:", count)
 
 
 
@@ -61,3 +61,13 @@ When inner_count reaches 3, the inner loop ends.
 After exiting the inner loop, outer_count is incremented by 1.
 The updated outer_count value is printed.
 The process repeats until outer_count reaches 3, at which point the program terminates.'''
+
+
+
+while True:
+    user_input = input("Enter 'exit' to stop: ")
+    if user_input.lower() == 'exit':
+        print("Exiting loop.")
+        break
+    else:
+        print("You entered:", user_input)
