@@ -6,4 +6,5 @@ while inventory["apple"] > 0:
     print(f"Selling an apple. Remaining: {inventory['apple']}")
     inventory["apple"] -= 1
 
+
 print("Apples are out of stock!\n")
