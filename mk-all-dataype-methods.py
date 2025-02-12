@@ -1,97 +1,64 @@
-# String methods:-
-
-first = "Hello World"
-
-print(first.upper())
-print(first.lower())
-print(first.strip())
-print(first.split())  # ['Hello', 'World']
-print(first.replace("l", "j"))
-
-# answers:-
-# HELLO WORLD
-# hello world
-# Hello World
-# ['Hello', 'World']
-# Hejjo Worjd
+# age = 22
+# meassge = "Eligible "if age >= 18 else "Not eligible"
+# print(meassge)
 
 
-# list methods:-
+# high_income = True
+# good_credit = True
+# student = False
 
-lst = [1, 2, 3, 4, 5, 5]
-lst.append(8)
-lst.insert(5, 10)
-print(lst)
-lst.remove(10)
-print(lst)
-print(lst.count(5))
-lst.sort(reverse=False)
-print(lst)
-lst.reverse()
-print(lst)
-# lst.clear()
-# del lst
-print(lst)
+# if not student:
+#     print("Eligible")
+# else:
+#     print("not eligible")
 
-# Answer
-# [1, 2, 3, 4, 5, 10, 5, 8]
-# [1, 2, 3, 4, 5, 5, 8]
-# 2
-# [1, 2, 3, 4, 5, 5, 8]
-# [8, 5, 5, 4, 3, 2, 1]
-# [8, 5, 5, 4, 3, 2, 1]
+# high_income = False
+# good_credit = True
+# student = False
 
-# dictionary methods:-
+# if (high_income or good_credit) and not student:
+#     print("Eligible")
+# else:
+#     print("not eligble")
 
-student_marks = {
-    "math": "100",
-    "phy": "80",
-    "eng": "85",
-    "com": "100"
-}
 
-print(student_marks.keys())
-print(student_marks.items())
-print(student_marks.values())
-print(student_marks.get("phy"))
-print(student_marks.pop("math"))
-print(student_marks.popitem())
-print(student_marks)
-student_marks.clear()
+# age = 16
 
-# Answers
-# dict_keys(['math', 'phy', 'eng', 'com'])
-# dict_items([('math', '100'), ('phy', '80'), ('eng', '85'), ('com', '100')])
-# dict_values(['100', '80', '85', '100'])
-# 80
-# 100
-# ('com', '100')
-# {'phy': '80', 'eng': '85'}
+# if 18 <= age < 65:
+#     print("eligible")
+# else:
+#     print("not")
 
-# Set methods:-
 
-marks = {23, 3, 33, 56, 75}
+# for x in range(1, 6, 2):
+#     print("Attempt", x, x*".")
 
-clas = {23, 3, 33, 56, 75}
-marks.add(55)
-print(clas)
-marks.remove(55)
-print(clas)
-marks.discard(3)
-print(clas)
-marks.pop()
-print(clas)
-marks.clear()
-print(clas)
-marks.update(clas)
-print(clas)
-print(marks)
 
-# answers:-
-# {33, 3, 23, 56, 75}
-# {33, 3, 23, 56, 75}
-# {33, 3, 23, 56, 75}
-# {33, 3, 23, 56, 75}
-# {33, 3, 23, 56, 75}
-# {33, 3, 23, 56, 75}
-# {33, 3, 23, 56, 75}
+# successful = False
+
+# for number in range(3):
+#     print("Attempt")
+#     if successful:
+#         print("succesfull")
+#         break
+# else:
+#     print("you have attempted 4 times, attempt failed")
+
+
+# for x in range(5):
+#     for y in range(3):
+#         print(f"({x},{y})")
+
+
+# number = 100
+
+# while number > 0:
+#     print(number)
+#     number //= 2
+
+
+command = ""
+
+while command.lower() != "quit":
+    command = input(":=")
+    print("Echo", command)
